@@ -1,0 +1,34 @@
+.button {
+    inline-size: 32px; /* para poner ancho utilizo esa propiedad */
+    block-size: 32px; /* para poner el alto utilizo esa propiedad */
+    border: none; /* indico que mis botones no van a tener borde */
+    background-color: transparent; /* el relleno de mis botones sera transparente */
+    background-repeat: no-repeat; /* con esto no se repetiran mis botones */
+    background-position: center; /* la posicion de mis botones es en el centro */
+    cursor: pointer; /* aparece una manita sobre el boton */
+
+}
+
+.button:active {
+    transform: scale(.9); /* 90% de mi boton */
+}
+
+#play {
+    background-image: url('../images/play.svg'); /* con dos puntos y slash retrocedo de la carpeta */
+}
+
+#pause {
+    background-image: url('../images/pause.svg'); /* pongo la direccion en donde se encuentra mi imagen para el boton */
+
+}
+
+#backward {  /* backward sirve para atrasar */
+    background-image: url('../images/-10.svg');
+
+}
+
+#forward { /* forward sirve para adelantar */
+    background-image: url('../images/+10.svg');
+
+}
+
